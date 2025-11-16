@@ -1,0 +1,36 @@
+/* Apply to the whole page */
+body {
+    background-color: #800080; /* Purple background */
+    color: white; /* White text for contrast */
+    font-family: Arial, sans-serif; /* Simple readable font */
+    margin: 0; /* Remove default browser margin */
+    padding: 20px; /* Add spacing around content */
+}
+
+/* Make headings look nicer */
+h1, h2, h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+/* Style paragraphs */
+p {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/* Example button style */
+button {
+    background-color: white;
+    color: #800080;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f0e6ff; /* Light purple-ish hover effect */
+}
